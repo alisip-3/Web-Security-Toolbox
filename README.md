@@ -13,10 +13,8 @@ The script uses a **Binary Search** algorithm to guess the password characters, 
 ## How to Run It
 
 Open your terminal (CMD, PowerShell, or Kali) and run the script with the following arguments:
-
-```bash
 python exploit.py -u <URL> -t <TRACKING_ID_COOKIE> -s <SESSION_COOKIE> -m <MODE>
-```bash
+
 Example for Time Mode:
 python exploit.py -u "[https://example.web-security-academy.net/](https://example.web-security-academy.net/)" -t "XYZ123" -s "ABC456" -m time
 

@@ -30,9 +30,8 @@ The script does not just print the password on your screen. Once it successfully
 python exploit.py -u <URL> -t <TRACKING_ID_COOKIE> -s <SESSION_COOKIE> -m <MODE>
 ```
 ### Proof of Concept
-![Here is the script running the binary search and solving the lab:](https://github.com/alisip-3/Web-Security-Toolbox/blob/main/cmd_exploit.png)
-
-![And here is the confirmation from PortSwigger showing the lab is solved:](https://github.com/alisip-3/Web-Security-Toolbox/blob/main/lab_solved.png)
+![Here is the script running the binary search and solving the lab:](images%20/cmd_exploit.png)
+![And here is the confirmation from PortSwigger showing the lab is solved:]()
 
 ## 2. Custom Web Vulnerability Scanner ('web_scanner.py')
 After finishing the PortSwigger labs, I wanted to upgrade the project. I wanted a tool that isn't just for one specific challenge, but something I can run against any URL to look for common web vulnerabilities.
@@ -52,4 +51,4 @@ python web_scanner.py -u "[http://example.com](http://example.com)"
 
 
 ### Proof of Concept
-![Here is the scanner finding missing headers and an outdated server banner on a test website:](https://github.com/alisip-3/Web-Security-Toolbox/blob/main/web_scanner.png)
+![Here is the scanner finding missing headers and an outdated server banner on a test website:]()

@@ -1,6 +1,8 @@
 # Web Security Toolbox
 
-This repository contains two Python tools I built while studying web penetration testing. It started with an automation script to solve advanced challenges on **PortSwigger's Web Security Academy**, and then I decided to expand it into a custom scanner for testing real-world websites.
+This is a collection of two Python tools I built while learning web penetration testing. Instead of just running ready-made tools like SQLMap without understanding what happens behind the scenes, I wanted to build my own scripts from scratch to really learn how these vulnerabilities work.
+
+It started as a script to automate and solve hard labs on **PortSwigger's Web Security Academy**, and then I upgraded it into a custom scanner to test real-world websites for security issues.
 
 ## Project Structure
 

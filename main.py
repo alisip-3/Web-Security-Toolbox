@@ -60,7 +60,7 @@ def generate_ai_report():
     Please write a professional penetration testing report in Markdown format. 
     It MUST include these exact sections:
     1. **Executive Summary** (Explain the risk simply for a non-technical manager).
-    2. **Technical Details** (Explain the HTTP request/cookie. YOU MUST include this exact line to display the proof screenshot: `![Proof of Exploit](proof_of_exploit.png)`)
+    2. **Technical Details** (Explain the HTTP request/cookie. YOU MUST include this exact line to display the proof screenshot: `![Proof of Exploit](proof_of_exploit.png)`)  
     3. **Business Impact** (What is the actual risk to the bank and its customers?).
     4. **Remediation** (How should the developer fix this in Python/Flask? Provide secure code examples).
     """

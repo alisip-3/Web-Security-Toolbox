@@ -7,6 +7,13 @@ This project was built to demonstrate the automation of a common security workfl
 
 Instead of manually writing reports after finding a bug, this tool automates the exploitation, takes a screenshot of the compromised state, and uses a local AI to generate a structured, remediation-focused report.
 
+## Live Demo
+**⚠️ WARNING: This is an intentionally vulnerable application for educational purposes only!**
+
+- **Banking Application**: https://python-pickwiz.onrender.com
+- **Test Credentials**: `admin` / `12345`
+
+**Disclaimer**: This application contains known security vulnerabilities (hardcoded session tokens, broken access control). Do NOT use real credentials or sensitive data. This is strictly for demonstrating security concepts and automated testing workflows.
 
 ## Features
 - **Automated Exploitation**: Uses Playwright to simulate a browser, inject payloads (e.g., hardcoded session cookies), and verify Broken Access Control.

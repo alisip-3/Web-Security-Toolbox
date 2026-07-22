@@ -22,7 +22,7 @@ Instead of manually writing reports after finding a bug, this tool automates the
 - **Browser Automation**: Playwright (Async Python)
 - **AI Integration**: Ollama (Llama 3.2)
 
-- 
+
 ## How It Works
 1. **Targeting**: The script targets a specific endpoint (e.g., `/secure-zone/bank`).
 2. **Exploitation**: Playwright injects a known vulnerable cookie (`session_token=secure_user_session_12345`) and navigates to the page.
@@ -56,7 +56,7 @@ When executed successfully, the tool generates a professional report. The "Techn
 - **Discovery vs. Automation:** While automated scanners are great, understanding how to manually discover a vulnerability (e.g., inspecting network traffic for static cookies) is crucial before automating the PoC.
 - **Prompt Engineering:** Getting a useful report from an LLM requires strict prompting. Defining the exact output structure (Executive Summary, Impact, Remediation) prevents the AI from generating generic, unhelpful text.
 - **Error Handling:** Integrating headless browsers requires robust timeout and state-waiting logic to handle real-world network latency (especially on free-tier hosting like Render).
-- 
+
 # Disclaimer
 This project is for educational and portfolio purposes only. Always ensure you have explicit permission before testing any application.
 

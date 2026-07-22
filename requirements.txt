@@ -1,1 +1,7 @@
-requests>=2.31.0
+# Core dependencies for the automated exploit and AI reporting
+playwright
+ollama
+
+# Dependencies for the vulnerable Flask target application
+flask
+flask-cors

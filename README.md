@@ -24,7 +24,6 @@ This project was built to demonstrate the automation of a common security workfl
 - The `llama3.2` model downloaded (`ollama pull llama3.2`)
 
 ## Installation & Usage
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/YOUR_USERNAME/AI-Powered-Vuln-Reporter.git
@@ -53,9 +52,9 @@ When executed successfully, the tool generates a professional report. The "Techn
 
 
 ## Lessons Learned
-- Discovery vs. Automation: While automated scanners are great, understanding how to manually discover a vulnerability (e.g., inspecting network traffic for static cookies) is crucial before automating the PoC.
-- Prompt Engineering: Getting a useful report from an LLM requires strict prompting. Defining the exact output structure (Executive Summary, Impact, Remediation) prevents the AI from generating generic, unhelpful text.
-- Error Handling: Integrating headless browsers requires robust timeout and state-waiting logic to handle real-world network latency (especially on free-tier hosting like Render).
+- **Discovery vs. Automation:** While automated scanners are great, understanding how to manually discover a vulnerability (e.g., inspecting network traffic for static cookies) is crucial before automating the PoC.
+- **Prompt Engineering:** Getting a useful report from an LLM requires strict prompting. Defining the exact output structure (Executive Summary, Impact, Remediation) prevents the AI from generating generic, unhelpful text.
+- **Error Handling:** Integrating headless browsers requires robust timeout and state-waiting logic to handle real-world network latency (especially on free-tier hosting like Render).
 # License
 This project is for educational and portfolio purposes only. Always ensure you have explicit permission before testing any application.
 
